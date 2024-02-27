@@ -10,7 +10,7 @@ const scene = new THREE.Scene();
 // Create our sphere
 const geometry = new THREE.SphereGeometry(3, 64, 64);
 const material = new THREE.MeshStandardMaterial({
-    color: "#00ff83",
+    color: "#12ff24",
     roughness: 0.4,
 });
 const mesh = new THREE.Mesh(geometry, material);
@@ -25,9 +25,13 @@ const sizes = {
 
 
 // Light
-const light = new THREE.PointLight(0xffffff, 70, 100, 1.5);
-light.position.set(0, 10, 10);
-scene.add(light);
+const lightOne = new THREE.PointLight(0xffffff, 70, 100, 1.5);
+lightOne.position.set(0, 10, 10);
+scene.add(lightOne);
+// Light 2
+// const lightTwo = new THREE.PointLight(0xffffff, 70, 100, 1.5);
+// lightTwo.position.set(0, 0, -10);
+// scene.add(lightTwo);
 
 
 // Camera
