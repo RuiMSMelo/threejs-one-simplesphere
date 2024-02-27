@@ -1,0 +1,21 @@
+{
+  "name": "threejstutorial-sphere",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "three": "^0.161.0"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5"
+  },
+  "scripts": {
+    "dev": "vite"
+  }
+  
+}
